@@ -298,7 +298,7 @@ public class ConfigFeatures extends ConfigGroup {
         "thaumometerScanContainers",
         "Enable the thaumometer to scan the contents of inventories when right-clicking on them.",
         new CustomResearchSetting.ResearchInfo("CHESTSCAN", "BASICS", 8, 3).setDifficulty(3)
-            .setParents("DECONSTRUCTOR")
+            .setParents("RESEARCHER2")
             .setAspects("ordo:10", "perditio:10", "permutatio:10")).setCategory("thaumometer_container_scan");
 
     public final ToggleSetting levitatorShiftFix = new ToggleSetting(
